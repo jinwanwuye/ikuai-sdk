@@ -13,7 +13,6 @@ wget https://github.com/deadash/ikuai-sdk/releases/download/v0.0.1/x86_64-buildr
 
 ### 2.2 创建 SDK 目录
 mkdir -p /opt/sdk/ikuai
-cd /opt/sdk/ikuai
 ```
 
 ### 解压 SDK
