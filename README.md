@@ -16,10 +16,12 @@ mkdir -p /opt/sdk/ikuai
 cd /opt/sdk/ikuai
 ```
 
-# 解压 SDK
+### 解压 SDK
+```bash
 tar xf x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz --strip-components=1 -C /opt/sdk/ikuai
-
-# 执行 relocate 脚本
+```
+### 执行 relocate 脚本
+```bash
 cd /opt/sdk/ikuai
 ./relocate-sdk.sh /opt/sdk/ikuai
 ```
