@@ -22,7 +22,7 @@ tar xf x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz --strip-components=1 -
 ### 执行 relocate 脚本
 ```bash
 cd /opt/sdk/ikuai
-./relocate-sdk.sh /opt/sdk/ikuai
+./relocate-sdk.sh
 ```
 
 
