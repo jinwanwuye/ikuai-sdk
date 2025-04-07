@@ -18,7 +18,7 @@ cd /opt/sdk/ikuai
 wget https://github.com/deadash/ikuai-sdk/releases/download/v0.0.1/x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz
 
 # 解压 SDK
-tar xf x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz -C /opt/sdk/ikuai
+tar xf x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz --strip-components=1 -C /opt/sdk/ikuai
 
 # 执行 relocate 脚本
 cd /opt/sdk/ikuai
