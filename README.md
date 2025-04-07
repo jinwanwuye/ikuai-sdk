@@ -9,14 +9,9 @@
 ```bash
 # 下载 SDK（替换为实际的下载链接）
 wget https://github.com/deadash/ikuai-sdk/releases/download/v0.0.1/x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz
-```bash
-mkdir -p /opt/sdk/ikuai
-cd /opt/sdk/ikuai
-```
 
 
 ### 2.2 创建 SDK 目录
-```bash
 mkdir -p /opt/sdk/ikuai
 cd /opt/sdk/ikuai
 ```
