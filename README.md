@@ -5,17 +5,21 @@
 
 ## 2. 环境准备
 
-### 2.1 创建 SDK 目录
+### 2.1 下载并解压 SDK
+```bash
+# 下载 SDK（替换为实际的下载链接）
+wget https://github.com/deadash/ikuai-sdk/releases/download/v0.0.1/x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz
 ```bash
 mkdir -p /opt/sdk/ikuai
 cd /opt/sdk/ikuai
 ```
 
 
-### 2.2 下载并解压 SDK
+### 2.2 创建 SDK 目录
 ```bash
-# 下载 SDK（替换为实际的下载链接）
-wget https://github.com/deadash/ikuai-sdk/releases/download/v0.0.1/x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz
+mkdir -p /opt/sdk/ikuai
+cd /opt/sdk/ikuai
+```
 
 # 解压 SDK
 tar xf x86_64-buildroot-linux-uclibc_sdk-buildroot.tar.gz --strip-components=1 -C /opt/sdk/ikuai
